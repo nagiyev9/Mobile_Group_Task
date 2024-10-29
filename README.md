@@ -107,19 +107,19 @@ const UserSchema = new mongoose.Schema({
 
 ### Authentication
 
-- **Sign Up**:  \`POST http://localhost:5000/api/auth/signup\`
+- **Sign Up**:  \`POST http://localhost:5000/api/auth/signup`
 
-- **Confirm Account**:  \`POST http://localhost:5000/api/auth/signup/confirm\`
+- **Confirm Account**:  \`POST http://localhost:5000/api/auth/signup/confirm`
 
-- **Login**:  \`POST http://localhost:5000/api/auth/login\`
+- **Login**:  \`POST http://localhost:5000/api/auth/login`
 
 ### Client Management
 
-- **Get All Clients**:  \`GET http://localhost:5000/api/client/all\`
+- **Get All Clients**:  \`GET http://localhost:5000/api/client/all`
 
 - **Get One Client**:  \`GET http://localhost:5000/api/client?clientID=...`
 
-- **Add Client**:  \`POST http://localhost:5000/api/client/add\`
+- **Add Client**:  \`POST http://localhost:5000/api/client/add`
 
 ## Authentication
 
@@ -127,6 +127,6 @@ The API uses JWT tokens for authentication. Protected routes require a valid tok
 
 ## Error Handling
 
-echo Winston is used for error handling, and all errors are logged to the database for further analysis.
+Winston is used for error handling, and all errors are logged to the database for further analysis.
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
