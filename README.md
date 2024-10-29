@@ -117,7 +117,7 @@ const UserSchema = new mongoose.Schema({
 
 - **Get All Clients**:  \`GET http://localhost:5000/api/client/all\`
 
-- **Get One Client**:  \`GET http://localhost:5000/api/client?clientID=...\`
+- **Get One Client**:  \`GET http://localhost:5000/api/client?clientID=...`
 
 - **Add Client**:  \`POST http://localhost:5000/api/client/add\`
 
